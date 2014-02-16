@@ -1,0 +1,84 @@
+body {
+  width:70%;
+  margin-left:15%;
+  font-family:"Comic Sans MS", serif;
+  background:lightblue;
+}
+
+header {
+  padding: 50px 0px 100px;
+  text-align:center;
+  border:solid 1px gray;
+  background:url(http://fc00.deviantart.net/fs70/f/2012/275/2/c/beach_sky_2_by_vronde-d5gkb4n.png);
+  background-position:50% 50%;
+  font-size:50px;
+}
+
+nav {
+  position:absolute;
+  top:150px;
+  left:550px;
+}
+
+nav>a {
+  padding:10px;
+  color:black;
+  background:gold;
+  font-weight:bold;
+  font-size:large;
+  text-decoration:none;
+  border:orange solid;
+}
+
+img {
+  margin-top:60px;
+  float:left;
+  width:200px;
+  height:200px;
+}
+
+#info>ul>li:last-child {
+  color:white;
+}
+
+section {
+  width:65%;
+  font-weight:bold;
+  font-size:xx-large;
+}
+
+ul {
+  padding:10px 0px;
+  margin-bottom:0px;
+  color:black;
+  font-weight:normal;
+  font-size:medium;
+  list-style-type:none;
+  background:white;
+}
+
+li {
+  padding:10px;
+  margin-left:50px;
+}
+
+#highlight {
+  position:absolute;
+  top:300px;
+  right:300px;
+  width:20%;
+  height:600px;
+  float:right;
+  margin-right:20px;
+  background:yellow;
+  text-align:center;
+}
+
+#highlight>ul {
+  background:transparent;
+}
+
+#highlight>ul:after {
+  content:url(http://armandhammerpets.ca/assets/Uploads/3/puppy.png);
+}
+
